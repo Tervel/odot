@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Editing todo lists" do
   # Create todo list and assign it to variable (:todo_list)
-  let!(:todo_list) { TodoList.create(title: "Groceries", description: "Greocery list.") }
+  let!(:todo_list) { TodoList.create(title: "Groceries", description: "Grocery list.") }
 
   def update_todo_list(options={})
     options[:title] ||= "My todo list" # If no title, by default "My todo list"

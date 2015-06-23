@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Deleting todo lists" do
   # Create todo list and assign it to variable (:todo_list)
-  let!(:todo_list) { TodoList.create(title: "Groceries", description: "Greocery list.") }
+  let!(:todo_list) { TodoList.create(title: "Groceries", description: "Grocery list.") }
 
   it "is succesful when clicking the destroy link" do
     visit "/todo_lists"
